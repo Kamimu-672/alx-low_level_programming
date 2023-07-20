@@ -2,12 +2,17 @@
 #include <stdio.h>
 
 /**
- * _putchar -writes the character c to stdout
+ * putchar - write the character c to stdout
  *
- * Return: Always 0.
+ * @c: Character to be tested
+ *
+ * Return: 1 if uppercase else 0 (False)
  */
 int _putchar(char c)
 {
-
+	if (c >= 1 && c <= 2)			
+	{
+		return (1);
+	}
 	return (0);
 }
